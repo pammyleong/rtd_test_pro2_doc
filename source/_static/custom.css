@@ -1,1 +1,15 @@
-/* Adjust the content width */.wy-nav-content {    max-width: none;  /* Adjust the percentage as needed. max-width: 940px; */    /* margin: 0 auto; */}/* Optionally adjust the sidebar *//*.wy-side-nav-search {*//*    width: 300px;  */ /* Adjust the sidebar width as needed *//*}*/.rst-other-versions {    position: absolute;    top: 20px;  /* Adjust the top position */    right: 20px; /* Adjust the right position */}
+/* Adjust the content width */
+.wy-nav-content {
+    max-width: none;  /* Adjust the percentage as needed. max-width: 940px; */
+    /* margin: 0 auto; */
+}
+
+/* Optionally adjust the sidebar */
+/*.wy-side-nav-search {*/
+/*    width: 300px;  */ /* Adjust the sidebar width as needed */
+/*}*/
+
+
+.version-dropdown {
+    float: right; /* This would move the dropdown to the right */
+}

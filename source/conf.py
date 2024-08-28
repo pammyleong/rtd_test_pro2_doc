@@ -6,6 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+# Import the theme module
+import sphinx_rtd_theme
+
 project = 'AmebaPro2\'s Arduino Documentation'
 copyright = '2024 Realtek Semiconductor Corp. All rights reserved'
 author = 'REALTEK SG'
@@ -37,6 +40,10 @@ html_context = {
 
 html_logo = '_static/Realtek_logo.png'
 html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    'navigation_depth': 4,
+    'version_dropdown': True,
+}
 html_static_path = ['_static']
 html_css_files = [
     'custom.css',
