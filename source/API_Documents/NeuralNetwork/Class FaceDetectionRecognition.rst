@@ -39,8 +39,8 @@ A class used to represent and retrieve data related to faces recognized by a fac
 | FaceRecognitionResult::yMax            | Get y coordinate of the bottom right corner of the bounding box containing the recognized face.   |
 +----------------------------------------+---------------------------------------------------------------------------------------------------+
 
-FaceRecognitionResult::name
----------------------------
+**FaceRecognitionResult::name**
+-------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -70,8 +70,8 @@ Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNFaceRecognition.h” must be included to use the class function.
 
-FaceRecognitionResult::xMin
----------------------------
+**FaceRecognitionResult::xMin**
+-------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -101,8 +101,8 @@ Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNFaceRecognition.h” must be included to use the class function.
 
-FaceRecognitionResult::yMin
----------------------------
+**FaceRecognitionResult::yMin**
+-------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -132,8 +132,8 @@ Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNFaceRecognition.h” must be included to use the class function.
 
-FaceRecognitionResult::yMax
----------------------------
+**FaceRecognitionResult::yMax**
+-------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -194,8 +194,8 @@ Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/de
 | NNFaceDetectionRecognition::getResult             | Get face recognition results.                                      |
 +---------------------------------------------------+--------------------------------------------------------------------+
 
-NNFaceDetectionRecognition::begin
----------------------------------
+**NNFaceDetectionRecognition::begin**
+-------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -225,8 +225,8 @@ Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNFaceRecognition.h” must be included to use the class function.
 
-NNFaceDetectionRecognition::end
--------------------------------
+**NNFaceDetectionRecognition::end**
+-----------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -256,8 +256,8 @@ NA
 
 .. note :: “NNFaceRecognition.h” must be included to use the class function.
 
-NNFaceDetectionRecognition::registerFace
-----------------------------------------
+**NNFaceDetectionRecognition::registerFace**
+--------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -288,8 +288,8 @@ Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNFaceRecognition.h” must be included to use the class function.
 
-NNFaceDetectionRecognition::exitRegisterMode
---------------------------------------------
+**NNFaceDetectionRecognition::exitRegisterMode**
+------------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -319,8 +319,8 @@ Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNFaceRecognition.h” must be included to use the class function.
 
-NNFaceDetectionRecognition::resetRegisteredFace
------------------------------------------------
+**NNFaceDetectionRecognition::resetRegisteredFace**
+---------------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -350,8 +350,8 @@ Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNFaceRecognition.h” must be included to use the class function.
 
-NNFaceDetectionRecognition::backupRegisteredFace
-------------------------------------------------
+**NNFaceDetectionRecognition::backupRegisteredFace**
+----------------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -381,8 +381,8 @@ Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNFaceRecognition.h” must be included to use the class function.
 
-NNFaceDetectionRecognition::restoreRegisteredFace
--------------------------------------------------
+**NNFaceDetectionRecognition::restoreRegisteredFace**
+-----------------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -412,8 +412,8 @@ Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNFaceRecognition.h” must be included to use the class function.
 
-NNFaceDetectionRecognition::setThreshold
-----------------------------------------
+**NNFaceDetectionRecognition::setThreshold**
+--------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -443,8 +443,8 @@ NA
 
 .. note :: “NNFaceRecognition.h” must be included to use the class function. A higher threshold results in a stricter face recognition process. For example increasing the threshold may cause recognition to fail if the face is turned sideways. The default value of 1 has been tested to minimize false positives, while maximizing the conditions for recognizing a registered face.
 
-NNFaceDetectionRecognition::setResultCallback
----------------------------------------------
+**NNFaceDetectionRecognition::setResultCallback**
+-------------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -474,8 +474,8 @@ Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNFaceRecognition.h” must be included to use the class function. The callback function will be called with the latest results once per iteration.
 
-NNFaceDetectionRecognition::getResultCount
-------------------------------------------
+**NNFaceDetectionRecognition::getResultCount**
+----------------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
@@ -505,8 +505,8 @@ Example: `RTSPFaceRecognition <https://github.com/ambiot/ambpro2_arduino/blob/de
 
 .. note :: “NNFaceRecognition.h” must be included to use the class function.
 
-NNFaceDetectionRecognition::getResult
--------------------------------------
+**NNFaceDetectionRecognition::getResult**
+-----------------------------------------
 
 **Description**
 ~~~~~~~~~~~~~~~
